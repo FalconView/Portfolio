@@ -4,8 +4,8 @@
   --tertiary-color: #66677c;
   --section-color: #2f485f;
 
-  --bs: 0.60em 0.60em 0.95em rgba(0,0,0,.25),
-          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+  --bs: 0.6em 0.6em 0.95em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 * {
@@ -17,51 +17,51 @@
 /* Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
   header h1 {
-      font-size: 45px;
+    font-size: 45px;
   }
 
   header nav ul li {
-      font-size: 18px;
-      padding: 5px 5px;
-      border-bottom: 2px solid;
+    font-size: 18px;
+    padding: 5px 5px;
+    border-bottom: 2px solid;
   }
 
   .hero h2 {
-      padding: 5px 10px;
-      font-size: 28px;
-      margin: 140px 10px 20px 0;
+    padding: 5px 10px;
+    font-size: 28px;
+    margin: 140px 10px 20px 0;
   }
-  
+
   .section-title {
-      font-size: 38px;
+    font-size: 38px;
   }
 
   .intro p {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .work-images img {
-      height: 200px;
+    height: 200px;
   }
 
   .work-samp-title {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   #secondary-work img {
-      width: 90vw;
+    width: 80vw;
   }
 
   .contact-info address a {
-      font-size: 18px;
-      line-height: 2.2;
+    font-size: 18px;
+    line-height: 2.2;
   }
 }
 
 body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
-  background-color: #F0F4F7;
+  background-color: #f0f4f7;
 }
 
 /* Header style start */
@@ -112,7 +112,7 @@ header nav a {
 }
 
 header nav ul li:hover {
-  background:var(--primary-color);
+  background: var(--primary-color);
 }
 
 header nav ul li a:hover {
@@ -125,13 +125,13 @@ footer {
   padding: 10px 0;
   text-align: center;
   background-color: var(--secondary-color);
-  color: #DBE3EB;
+  color: #dbe3eb;
 }
 /* Footer style end */
 
 /* Hero section start */
 .hero {
-  background-image: url("./Wallpaper3.jpg");
+  background-image: url("../Image/Wallpaper3.jpg");
   background-size: cover;
   background-position: top;
   display: flex;
@@ -159,7 +159,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 
 .flex-title {
   text-align: right;
@@ -200,7 +199,7 @@ main {
   position: absolute;
   color: var(--secondary-color);
   line-height: 1.5;
-  transform: translate(0%,-140%);
+  transform: translate(0%, -140%);
 }
 
 .work-samp-title p {
@@ -213,7 +212,7 @@ main {
 }
 
 .work-images img {
-  width: 69vw;
+  width: 74vw;
   height: 400px;
   object-fit: cover;
   object-position: 100% 80%;
@@ -238,7 +237,6 @@ main {
 }
 
 /* Work section end */
-
 
 /* Contact me section start */
 .contact-info {
@@ -265,83 +263,82 @@ main {
 /* Media query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
   header {
-      position: relative;
+    position: relative;
   }
 
   header h1 {
-      padding-left: 45px;
+    padding-left: 45px;
   }
 
   header nav ul li {
-      font-size: 25px;
+    font-size: 25px;
   }
 
   main {
-      max-width: 90%;
+    max-width: 90%;
   }
-  
+
   .section-border {
-      display: block;
+    display: block;
   }
 
   .section-title {
-      text-align: center;
-      border-bottom: 4px solid;
-      margin: 30px auto 0 auto;
-      width: 50%;
+    text-align: center;
+    border-bottom: 4px solid;
+    margin: 30px auto 0 auto;
+    width: 50%;
   }
 
   .title-border {
-      border-left: none;
-      padding-left: 0;
-      margin: 30px auto 20px auto;
+    border-left: none;
+    padding-left: 0;
+    margin: 30px auto 20px auto;
   }
 
   .intro p {
-      padding-left: 0;
-      margin: 30px auto;
-      text-align: center;
+    padding-left: 0;
+    margin: 30px auto;
+    text-align: center;
   }
 
   .work-images {
-      text-align: center;
+    text-align: center;
   }
 
   .work-images img {
-      width: 90vw;
-      height: 300px;
+    width: 90vw;
+    height: 300px;
   }
 
   .work-samp-title {
-      transform: translate(0, -140%);
+    transform: translate(0, -140%);
   }
 
   #secondary-work img {
-      width: 44vw;
+    width: 44vw;
   }
-  
+
   .contact-info {
-      padding: 10px 20px;
+    padding: 10px 20px;
   }
 }
 
 /* Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
   header {
-      padding: 4px 0 8px 0;
+    padding: 4px 0 8px 0;
   }
 
   header h1 {
-      font-size: 50px;
+    font-size: 50px;
   }
 
   header nav ul li {
-      font-size: 20px;
-      border-bottom: 3px solid;
+    font-size: 20px;
+    border-bottom: 3px solid;
   }
 
   .section-title {
-      font-size: 43px;
+    font-size: 43px;
   }
 }
-
