@@ -17,7 +17,7 @@ In this portfolio I have utilized all possible skills I have learned in the boot
 https://falconview.github.io/Portfolio/
 
 ![2022-04-13](https://user-images.githubusercontent.com/39162030/163112671-6d13a674-bd08-4522-bdc9-2d7a3ca7a301.png)
-![2022-04-13 (1)](https://user-images.githubusercontent.com/39162030/163112702-942a69c7-0ed2-46cf-bdfb-5a99babeb552.png)
+![2022-04-13 (1)](https://user-images.githubusercontent.com/sectionB.png)
 
 ## Contribution
 
