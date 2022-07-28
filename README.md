@@ -21,4 +21,4 @@ https://falconview.github.io/Portfolio/
 
 ## Contribution
 
-Made with ❤️ by Feroz Zargar in March, 2022.
+Made by Feroz Zargar in March, 2022.
