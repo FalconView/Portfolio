@@ -343,7 +343,7 @@ main {
   }
 }
 
-/* Media query for mobile */
+/* Media query for mobile 
 @media screen and (min-width: 320px; max-width: 480px)
 header {
   padding: 2px 0 4px 0;
@@ -362,3 +362,4 @@ header nav ul li {
   font-size: 21.5px;
 }
 }
+*/
